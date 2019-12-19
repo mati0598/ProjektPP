@@ -35,6 +35,7 @@ int main()
 
 	refresh();
 	sleep(5);
+
 	endwin();
 
 	return 0;
