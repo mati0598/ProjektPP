@@ -26,6 +26,7 @@ int main()
 {
 
 	initscr();
+
 	noecho();
 	curs_set(0);
 
