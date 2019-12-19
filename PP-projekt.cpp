@@ -33,6 +33,7 @@ int main()
 	NEW_GAME new_game;
 	new_game.Print();
 
+
 	refresh();
 	sleep(5);
 
