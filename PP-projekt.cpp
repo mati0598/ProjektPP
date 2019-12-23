@@ -92,6 +92,14 @@ class MENU
 						
 						break;
 					}
+					else if((mysz.y==20) &&(mysz.x>=67) && (mysz.x<=72))
+					{
+						sleep(1);
+						wclear(win);
+						wrefresh(win);
+						delwin(win);
+						endwin();
+					}
 				}
 			}
 		}
